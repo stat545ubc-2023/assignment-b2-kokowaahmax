@@ -20,7 +20,24 @@ You can install the development version of summarizeData from
 with:
 
 ``` r
-# devtools::install_github("stat545ubc-2023/assignment-b2-kokowaahmax")
+devtools::install_github("stat545ubc-2023/assignment-b2-kokowaahmax")
+#> Downloading GitHub repo stat545ubc-2023/assignment-b2-kokowaahmax@HEAD
+#> withr (2.5.1 -> 2.5.2) [CRAN]
+#> vctrs (0.6.3 -> 0.6.4) [CRAN]
+#> utf8  (1.2.3 -> 1.2.4) [CRAN]
+#> fansi (1.0.4 -> 1.0.5) [CRAN]
+#> Installing 4 packages: withr, vctrs, utf8, fansi
+#> Installing packages into '/private/var/folders/nl/8y47lkq17cg9w8d36gqg_zkh0000gn/T/RtmpzaaaaS/temp_libpathe0aa2692a3b5'
+#> (as 'lib' is unspecified)
+#> ── R CMD build ─────────────────────────────────────────────────────────────────
+#> * checking for file ‘/private/var/folders/nl/8y47lkq17cg9w8d36gqg_zkh0000gn/T/Rtmp5sxVPB/remoteseae853b16b4d/stat545ubc-2023-assignment-b2-kokowaahmax-7a75372/DESCRIPTION’ ... OK
+#> * preparing ‘summarizeData’:
+#> * checking DESCRIPTION meta-information ... OK
+#> * checking for LF line-endings in source and make files and shell scripts
+#> * checking for empty or unneeded directories
+#> * building ‘summarizeData_1.0.0.tar.gz’
+#> Installing package into '/private/var/folders/nl/8y47lkq17cg9w8d36gqg_zkh0000gn/T/RtmpzaaaaS/temp_libpathe0aa2692a3b5'
+#> (as 'lib' is unspecified)
 ```
 
 ## Example
