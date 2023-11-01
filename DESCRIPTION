@@ -1,0 +1,17 @@
+Package: summarizeData
+Type: Package
+Title: Group-Wise Data Summarization
+Version: 1.0.0
+Authors@R: 
+    person("Xin", "Wang", , "wangxin0@student.ubc.ca", role = c("aut", "cre"))
+Description: Provides a function to perform group-wise data summarization based on specified grouping variables and summary expressions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr,
+    rlang
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

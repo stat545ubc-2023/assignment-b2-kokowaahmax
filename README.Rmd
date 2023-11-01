@@ -1,33 +1,39 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 
 # summarizeData
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The `summarize_data` R package is a utility that provides a convenient
-way to perform group-wise summarization of data frames based on
-specified grouping variables and summary statistics. It simplifies the
-process of creating grouped summaries by allowing you to specify
-grouping variables and summary expressions in a clear and concise
-manner.
+The `summarize_data` R package is a utility that provides a convenient way to perform group-wise summarization of data frames based on specified grouping variables and summary statistics. It simplifies the process of creating grouped summaries by allowing you to specify grouping variables and summary expressions in a clear and concise manner.
 
 ## Installation
 
-You can install the development version of summarizeData from
-[GitHub](https://github.com/stat545ubc-2023/assignment-b2-kokowaahmax)
-with:
+You can install the development version of summarizeData from [GitHub](https://github.com/stat545ubc-2023/assignment-b2-kokowaahmax) with:
 
-``` r
+```{r}
 # devtools::install_github("stat545ubc-2023/assignment-b2-kokowaahmax")
 ```
+
 
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
 
-``` r
+```{r example}
 library(summarizeData)
 
 ## basic example code
@@ -45,9 +51,6 @@ result <- summarize_data(data, group_vars = c("Group1", "Group2"),
 
 # View the resulting summary data frame
 head(result)
-#> # A tibble: 2 × 3
-#>   group Mean_Value1 Sum_Value2
-#>   <chr>       <dbl>      <dbl>
-#> 1 X              15         17
-#> 2 Y              15         26
 ```
+
+
